@@ -1,15 +1,14 @@
 import React from 'react'
-import "./StyleComponents/header.css";
 
 
 export const Header = () => {
   return (
     <>
-        <div className='header'>
+        <div className='bg-slate-800 flex h-20 justify-between items-center px-10 text-slate-100 text-lg font-bold'>
             <h1>Multiconsultas Brasil</h1>
-            <ul className='nav-menu'>
+            <ul>
                 <li>
-                    About me
+                  About me
                 </li>
             </ul>
         </div>
